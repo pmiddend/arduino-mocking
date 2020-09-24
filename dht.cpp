@@ -1,5 +1,3 @@
-#include "test_header.h"
-
 #ifndef MY_LOG
 #define MY_LOG(x)
 #endif
@@ -184,5 +182,3 @@ void setup() {
 void loop() {
   float humidity = dht_read_humidity();
 }
-
-#include "test_footer.h"

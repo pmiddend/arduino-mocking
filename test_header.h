@@ -67,14 +67,14 @@ unsigned long micros() {
   return my_current_time_us;
 }
 
-uint8_t portOutputRegister(int) {
+// uint8_t portOutputRegister(int) {
   
-}
+// }
 
-int digitalPinToPort() {
-}
+// int digitalPinToPort() {
+// }
 
-int digitalPinToBitMask(int) {
-}
+// int digitalPinToBitMask(int) {
+// }
 
 #define MY_LOG(x) std::cout << x << "\n"
